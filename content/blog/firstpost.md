@@ -1,26 +1,47 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: Intro to Web Development.
+description: This is a post on My Blog about HTML and CSS.
+date: 2023-02-20
 tags:
   - another tag
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the fundamental technologies of Web pages. HTML provides the structure of the page and CSS beautifies it.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+## HTML (Hypertext Markup Language)
 
-## Section Header
+it stands for Hyper Text Markup Language
+it is the standard markup language for creating web pages
+it describes the structure of a web page
+it consists of a series of elements
+the elements tell the browser how to display the content
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+```diff-html
+<!-- this is a simple html document -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
- // Test with a line break above this line.
- console.log('Test');
+</body>
+</html>
+```
+
+## CSS (Cascading Style Sheets)
+
+it stands for Cascading Style Sheets.
+It is used to format the layout of a webpage.
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+
+CSS can be added to HTML in different ways
+
+One way is by using the;
+
+```diff-css
+<style></style> // using the style tag in the head section.
+<link> // and by using link when the css file is external.
 ```
